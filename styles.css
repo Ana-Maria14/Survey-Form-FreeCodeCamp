@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/63e33cb9b869157e0d015b70/1678242248762-HEKB0F69OESEBZI4HC11/cute-aesthetic-coffee-cups-pink-1.jpg");
+}
+#survey-form{
+    background-color: moccasin;
+    height: auto;
+    padding: 3%;
+    font-size: 1.2rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 8%;
+    opacity: 0.85;
+    background-color: lightpink;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#title, #description {
+    text-align: center;
+}
+#title{
+    padding-top: 3%;
+    font-size: 2rem;
+}
+#description{
+    padding-bottom: 1.5%;
+    margin-top: -1%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#name, #email, #number, #dropdown, #comments, #submit{
+    width: 100%;
+    height: 6%;
+    margin-top: 0.8%;
+    padding-left: 0.9%;
+    border: 0;
+    box-shadow: 3px 3px 3px rgb(242, 181, 242);
+}
+#submit{
+    text-align: center;
+    background-color: palevioletred;
+    font-size: 1.1rem;
+    margin-top: 4%;
+    color: whitesmoke;
+}
+#comments{
+    height: 10%;
+}
+input, select, textarea{
+    font-size: 1.1rem;
+}
+div{
+    margin-top: 2%;
+}
+@media (max-width: 768px) {
+    html {
+        font-size: 15px; 
+    }
+  }
+  
+@media (max-width: 480px)  {
+    html {
+        font-size: 13px; /* Default font size */
+    }
+  }

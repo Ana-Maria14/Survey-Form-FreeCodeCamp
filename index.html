@@ -1,0 +1,72 @@
+</html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">RareCoffee Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve</p>
+
+    <form id="survey-form">
+        <div>
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br>
+        </div>
+
+        <div>
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+        </div>
+        
+        <div>
+        <label for="age" id="number-label">Age (optional)</label><br>
+        <input type="number" id="number" name="age" max="120" min="10" placeholder="Age"><br>
+        </div>
+
+        <div>
+        <label>Where do you usually drink our coffee?</label><br>
+        <select id="dropdown">
+            <option value="Select location">Select location</option>
+            <option value="Bucharest">Bucharest</option>
+            <option value="Cluj">Cluj</option>
+            <option value="Craiova">Craiova</option>
+            <option value="Brasov">Brasov</option>
+            <option value="Sibiu">Sibiu</option>
+        </select><br>
+        </div>
+
+        <div>
+        <label>Would you recommend RareCoffee to a friend?</label><br>
+        <input type="radio" id="Definitely" name="radio" value="Definitely">
+        <label for="Definitely">Definitely</label><br>
+        <input type="radio" id="Maybe" name="radio" value="Maybe">
+        <label for="Maybe">Maybe</label><br>
+        <input type="radio" id="Not sure" name="radio" value="Not sure">
+        <label for="Not sure">Not sure</label><br>
+        </div>
+
+        <div>
+        <label>What would you like to see improved?</label><br>
+        <input type="checkbox" value="Iced drinks">
+        <label>Iced drinks</label><br>
+        <input type="checkbox" value="Hot drinks">
+        <label>Hot drinks</label><br>
+        <input type="checkbox" value="Desserts and pastries">
+        <label>Desserts and pastries</label><br>
+        <input type="checkbox" value="Service">
+        <label>Service</label><br>
+        <input type="checkbox" value="Decorations">
+        <label>Decorations</label><br>
+        </div>
+
+        <div>
+        <label>Any comments or suggestions?</label><br>
+        <textarea id="comments" placeholder="Enter your comments..."></textarea><br>
+        <button id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html
